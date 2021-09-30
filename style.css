@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+/* Cor do fundo */
+body {
+  background: #1b263b;
+  transition: all .6s;
+}
+
+/* deixa centralizado o input e o button */
+div {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Titulo */
+#Title {
+  font-family: "Poppins";
+  font-size: 35px;
+  font-weight: 400;
+  color: #b2f7ef;
+  text-align: center;
+}
+
+/* input search */
+#InputSearch {
+  border: 2px solid #ccc;
+  padding: 0px 10px;
+  height: 40px;
+  width: 60%;
+  border-radius: 8px;
+  color: #888;
+  font-size: 16px;
+  outline: none;
+  transition: 0.6s;
+  font-family: "Poppins";
+  font-weight: 400;
+  margin: 0 4px;
+}
+
+/* Hover do Search */
+#InputSearch:hover {
+  color: #b2f7ef;
+  background: transparent;
+}
+
+/* Bottao de registrar */
+#Resgister {
+  cursor: pointer;
+  padding: 9px 10px;
+  border: 2px solid #888;
+  background: transparent;
+  color: #b2f7ef;
+  font-size: 14px;
+  border-radius: 8px;
+  transition: 0.6s;
+  font-family: "Poppins";
+  font-weight: 200;
+}
+
+/* Registrar hover */
+#Resgister:hover {
+  color: rgb(95, 95, 95);
+  background: #b2f7ef;
+  border: 2px solid white;
+}
+
+/*  ___
+   |_|_|
+    \_/
+*/
